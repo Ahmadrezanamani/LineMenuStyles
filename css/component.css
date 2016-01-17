@@ -2495,6 +2495,104 @@
 
 /* End: Juliet Styles */
 
+/* Name (by @Ahmadrezanamani) */
+
+.menu--ahmadreza li {
+    min-width: 150px;
+    line-height:25px;
+    margin:0 10px;
+    text-align: center;
+    position:relative;
+    overflow:hidden;
+	-webkit-transition:all .3s cubic-bezier(1,0,0,1);
+	        transition:all .3s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li a {
+	color: #B5B5B5;
+	-webkit-transition:color .3s cubic-bezier(1,0,0,1);
+	        transition:color .3s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li a:hover {
+	color: #D94F5C;
+}
+.menu--ahmadreza li.menu__item--current {
+	background: #D94F5C;
+}
+.menu--ahmadreza li.menu__item--current a {
+	color: #fff;
+}
+.menu--ahmadreza li::after,.menu--ahmadreza li::before,.menu--ahmadreza li a::after,.menu--ahmadreza li a::before {
+	content:"";
+	display:block;
+	background: #B5B5B5;
+	position:absolute;
+	-webkit-transition:all .3s cubic-bezier(1,0,0,1);
+	        transition:all .3s cubic-bezier(1,0,0,1);
+	z-index:-1;
+}
+.menu--ahmadreza li::after {
+	top:0;
+	left:0;
+	width:100%;
+	height:2px;
+	-webkit-transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li::before {
+	top:0;
+	right:0;
+	width:2px;
+	height:100%;
+	-webkit-transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li a::after {
+	bottom:0;
+	right:0;
+	width:100%;
+	height:2px;
+	-webkit-transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li a::before {
+	bottom:0;
+	left:0;
+	width:2px;
+	height:100%;
+	-webkit-transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li:hover::after {
+	width:2px;
+	height:100%;
+	-webkit-transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li:hover::before {
+	width:100%;
+	height:2px;
+	-webkit-transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li:hover a::after {
+	width:2px;
+	height:100%;
+	-webkit-transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s 0s cubic-bezier(1,0,0,1),height .3s .2s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li:hover a::before {
+	width:100%;
+	height:2px;
+	-webkit-transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+	        transition:width .3s .2s cubic-bezier(1,0,0,1),height .3s 0s cubic-bezier(1,0,0,1),background .3s 0s cubic-bezier(1,0,0,1);
+}
+.menu--ahmadreza li:hover::after,.menu--ahmadreza li:hover::before,.menu--ahmadreza li:hover a::after,.menu--ahmadreza li:hover a::before {
+	background: #D94F5C;
+}
+
+/* End: Ahmadreza Styles */
+
+
 /* YOUR STYLE (Shakespeare character name) see README.md for details */
 /* (Please copy these two lines and insert after your custom styles) */
 
